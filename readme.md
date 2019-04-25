@@ -35,10 +35,10 @@
 1. 使用 `egg-ts-helper` 生成对应 `service` 与 `controller` 的类型声明，以便于给 `IDE` 提供友好的类型提示
 1. 由于使用挂载到全局对象的方式，结构上天然解决了循环依赖问题
 
-这里有一个简单的还原 `eggjs` 思路的案例: [egg](/egg)
+这里有一个简单的还原 `eggjs` 思路的案例: [egg依赖解决案例](/egg)
 
 ## 自制简易 ioc
-这里综合参考 `nestjs` 与 `eggjs` 做了一个简易版的 `ioc` 作为学习的参考，代码案例参考 [ioc](/ioc)，在 `example` 目录执行 `ts-node run.ts` 即可
+这里综合参考 `nestjs` 与 `eggjs` 做了一个简易版的 `ioc` 作为学习的参考，代码案例参考 [自制简易ioc代码参考](/ioc)，在 `example` 目录执行 `ts-node run.ts` 即可
 
 ## 补充知识
 在理解 `ioc` 之前需要对以下知识做了解
