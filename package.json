@@ -1,0 +1,10 @@
+{
+    "name": "ioc-note",
+    "version": "0.0.1",
+    "description": "ts ioc 相关笔记",
+    "author": "wujohns",
+    "license": "MIT",
+    "dependencies": {
+        "reflect-metadata": "^0.1.12"
+    }
+}
