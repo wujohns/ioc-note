@@ -30,7 +30,7 @@
 
 ## eggjs 的策略
 `eggjs` 对于依赖采用了暴力且直接的解决方案：  
-1. 即将所有的 `service` 与 `controller` 安目录规则放在全局对象中  
+1. 即将所有的 `service` 与 `controller` 按文件路径规则放在全局对象中  
 1. 每一个 `service` 和 `controller` 引用这个全局对象实现不同 `service` 的相互调用以及 `controller` 对 `service` 的调用  
 1. 使用 `egg-ts-helper` 生成对应 `service` 与 `controller` 的类型声明，以便于给 `IDE` 提供友好的类型提示
 1. 由于使用挂载到全局对象的方式，结构上天然解决了循环依赖问题
